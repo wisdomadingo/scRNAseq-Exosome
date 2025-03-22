@@ -1,7 +1,7 @@
-name: "scRNAseq_Exosome"
+name: scRNAseq_Exosome
 output_dir: ../docs
 navbar:
-  title: "scRNAseq_Exosome"
+  title: scRNAseq_Exosome
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/wisdomadingo/scRNAseq_Exosome
 output:
   workflowr::wflow_html:
     toc: yes
